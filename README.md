@@ -77,11 +77,6 @@ Built for common startup use cases:
 
 ---
 
-## Connect
-
-Built by Rohan Patil — AI Engineer
-LinkedIn: linkedin.com/in/rohan-patil-ai
-
 ## 📁 Project Structure
 
 ```plaintext
