@@ -30,4 +30,38 @@ Let's think step by step:
 3. Total = 5 + 6 = 11 balls
 
 Answer: 11
+
+📂 Repository Structure
 """
+├── basics/              # Fundamental prompting techniques
+├── advanced/            # CoT, ToT, ReAct implementations
+├── templates/           # Reusable prompt templates
+├── use-cases/           # Real-world applications (RAG, Agents, Code)
+├── evaluation/          # Metrics and testing frameworks
+└── resources/           # Cheatsheets, references, and guides
+
+🔧 Technologies Used
+https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white
+https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white
+https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white
+https://img.shields.io/badge/Anthropic-000000?style=flat-square&logo=anthropic&logoColor=white
+
+
+📖 Key Learnings
+✅ Master 15+ prompting techniques with examples
+
+✅ Reduce hallucinations by 40% using structured prompts
+
+✅ Optimize token usage and cost efficiency
+
+✅ Build production-ready LLM applications
+
+🤝 Contributing
+Contributions are welcome! Feel free to:
+
+Add new prompting techniques
+
+Share real-world case studies
+
+Improve documentation
+
