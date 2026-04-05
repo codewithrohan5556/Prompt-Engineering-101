@@ -1,20 +1,86 @@
-# 🎯 Prompt Engineering Mastery
+#  🎯 Prompt Engineering Guide
+### Production-ready techniques for building reliable LLM applications
 
-A comprehensive collection of prompt engineering techniques, templates, and best practices for optimizing Large Language Model (LLM) outputs.
+A comprehensive collection of prompt engineering patterns
+used in production AI systems — with working code examples
+across Anthropic Claude, OpenAI GPT, and Groq Llama.
+
+Built by an AI Engineer for AI Engineers and startup founders
+who need prompts that actually work in production.
+
+---
+
+## Why This Exists
+
+Most prompt engineering resources show toy examples.
+This repository shows production patterns — the kind
+used in real AI products handling real user requests.
+
+Every technique includes:
+- What it is and when to use it
+- Working Python code you can copy
+- Real world startup use case
+- Common mistakes and how to avoid them
 
 ---
 
-## 📚 What's Inside
-
-| Category | Topics Covered |
-|----------|----------------|
-| **Basic Techniques** | Zero-shot, Few-shot, Instruction-based prompting |
-| **Advanced Methods** | Chain-of-Thought (CoT), Tree-of-Thoughts (ToT), ReAct |
-| **Role Prompting** | System prompts, Persona-based, Expert role-playing |
-| **Output Formatting** | JSON mode, Structured data extraction, Code generation |
-| **Optimization** | Temperature tuning, Token management, Iterative refinement |
+## Quick Start
+```bash
+git clone https://github.com/yourusername/prompt-engineering-guide
+cd prompt-engineering-guide
+pip install -r requirements.txt
+cp .env.example .env
+# Add your API keys to .env
+python 01_basics/zero_shot.py
+```
 
 ---
+
+## Techniques Covered
+
+| Technique | When to Use | File |
+|-----------|-------------|------|
+| Zero Shot | Simple tasks | 01_basics/zero_shot.py |
+| Few Shot | Consistent formatting | 01_basics/few_shot.py |
+| Chain of Thought | Complex reasoning | 02_advanced/chain_of_thought.py |
+| Structured Output | JSON extraction | 03_output_control/structured_outputs.py |
+| Self Consistency | High accuracy needed | 02_advanced/self_consistency.py |
+
+---
+
+## Real World Templates
+
+Built for common startup use cases:
+
+- Customer Support Agent
+- Content Generation Pipeline
+- Data Extraction from Documents
+- Code Review Assistant
+- Classification at Scale
+
+---
+
+## Supported Providers
+
+- Anthropic Claude (Haiku and Sonnet)
+- OpenAI GPT-4o Mini
+- Groq Llama 3.1 70B (FREE)
+
+---
+
+## Who This Is For
+
+- Founders building AI products
+- Engineers integrating LLMs
+- Anyone tired of prompts that work
+  sometimes but not always
+
+---
+
+## Connect
+
+Built by Rohan Patil — AI Engineer
+LinkedIn: linkedin.com/in/rohan-patil-ai
 
 ## 📁 Project Structure
 
