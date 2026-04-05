@@ -16,6 +16,9 @@ A comprehensive collection of prompt engineering techniques, templates, and best
 
 ---
 
+## 📁 Project Structure
+
+```plaintext
 prompt-engineering-guide/
 │
 ├── README.md                    # Main guide
@@ -67,10 +70,3 @@ prompt-engineering-guide/
     │   └── code_review.py
     └── notebooks/
         └── prompt_playground.ipynb
-
-Add new prompting techniques
-
-Share real-world case studies
-
-Improve documentation
-
